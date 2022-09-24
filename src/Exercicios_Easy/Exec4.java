@@ -5,19 +5,26 @@ package Exercicios_Easy;
 import javax.swing.*;
 
 public class Exec4 { // inicio da classe
-    public static void main(String[] args) {
-//        Declarar variável do tipo Numerico: num1, num2, resultado;
-        int num1, resultado;
-        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero!"));
-//        resultado = num1*2;
-        resultado = num1 * 2;
-//        Exibir: " O dobro é:" + resultado;
-        System.out.println(" O dobro é:" + resultado);
+    public int calcularDobro(int num){
+        return num*2;
     }
-    //        Inicio do Algoritmo
+}
+//----------------------------------------------------------------------------------------------------------------------
+//    (__PRIMEIRA FORMA QUE FOI MOSTRADA NO INICIO__)
+//        Declarar variável do tipo Numerico: num1, num2, resultado;
+//        int num1, resultado;
+//        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero!"));
+////        resultado = num1*2;
+//        resultado = num1 * 2;
+////        Exibir: " O dobro é:" + resultado;
+//        System.out.println(" O dobro é:" + resultado);
+//    }
+//}
+//----------------------------------------------------------------------------------------------------------------------
+//        Inicio do Algoritmo
 //        Declarar variável do tipo Numerico numeroDigitado,resultado;
 //        numeroDigitado = Ler 10;
 //        resultado = numeroDigitado *2;
 //        Exibir resultado;
 //    }
-}
+

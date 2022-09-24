@@ -5,19 +5,27 @@ package Exercicios_Easy;
 import javax.swing.*;
 
 public class Exec3 {
-    public static void main(String[] args) {
-        //    Declarar variável do tipo texto: nome, sobrenome;
-        String nome;
-        String sobrenome;
-//        Exbir “Nome: ” sobrenome;
-//        Exibir “Sobrenome:” nome;
-        nome = JOptionPane.showInputDialog("Digite seu nome!");
-        sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome!");
-        System.out.println(" O nome é: " + nome);
-        System.out.println(" O sobrenome é: " + sobrenome);
-        System.out.println(" O sobrenome é: " + nome);
+    public String inverterNomes(String nome, String sobrenome) {
+        return "Os valores são :" + sobrenome + nome;
     }
 }
+//----------------------------------------------------------------------------------------------------------------------
+// (__PRIMEIRA FORMA QUE FOI MOSTRADA NO INICIO__)
+
+//    public static void main(String[] args) {
+//        //    Declarar variável do tipo texto: nome, sobrenome;
+//        String nome;
+//        String sobrenome;
+////        Exbir “Nome: ” sobrenome;
+////        Exibir “Sobrenome:” nome;
+//        nome = JOptionPane.showInputDialog("Digite seu nome!");
+//        sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome!");
+//        System.out.println(" O nome é: " + nome);
+//        System.out.println(" O sobrenome é: " + sobrenome);
+//        System.out.println(" O sobrenome é: " + nome);
+//    }
+//}
+//----------------------------------------------------------------------------------------------------------------------
 //    Inicio Algoritmo
 //    Declarar variável do tipo texto nome, sobrenome;
 //    nome = Ler “Matheus”;
