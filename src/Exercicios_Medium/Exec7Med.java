@@ -1,4 +1,5 @@
 package Exercicios_Medium;
+
 //Faça um algoritmo para ler todos os meses do ano, armazene em um vetor.
 public class Exec7Med {
     public static void main(String[] args) {
@@ -17,10 +18,10 @@ public class Exec7Med {
         vetorMeses[9] = "outubro";
         vetorMeses[10] = "novembro";
         vetorMeses[11] = "dezembro";
-        System.out.println(vetorMeses [11]);
+        System.out.println(vetorMeses[11]);
 //            System.out.printf("%0,2d- %s\n", (i+1), vetorMeses[i]);
-        }
     }
+}
 //    Iniciar Algoritmo
 //
 //    Declarar vetor do tipo texto: vetorMeses[12];

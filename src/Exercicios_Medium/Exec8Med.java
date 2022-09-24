@@ -1,4 +1,5 @@
 package Exercicios_Medium;
+
 // Faça um algoritmo para exibir todos os meses digitados anteriormente.
 public class Exec8Med {
     public static void main(String[] args) {

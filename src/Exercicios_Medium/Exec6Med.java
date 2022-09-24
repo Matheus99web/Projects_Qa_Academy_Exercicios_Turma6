@@ -6,10 +6,10 @@ import javax.swing.*;
 //        Ex.: Digitou 10. 10*(10-1)*(10-2)*(10-3).. *(10-1) = 3.628.800
 public class Exec6Med {
     public static void main(String[] args) {
-        int fatorial,i=0;
+        int fatorial, i = 0;
         fatorial = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero!"));
         i = fatorial;
-        while (i>1){
+        while (i > 1) {
             fatorial = fatorial * (i - 1);
             i--;
         }

@@ -20,6 +20,6 @@ public class Exec8Med2 {
         vetorMeses[10] = "novembro";
         vetorMeses[11] = "dezembro";
         num = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero!"));
-        System.out.println(" O mes é:" + vetorMeses[ num - 1 ]);
+        System.out.println(" O mes é:" + vetorMeses[num - 1]);
     }
 }

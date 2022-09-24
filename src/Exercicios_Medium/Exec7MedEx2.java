@@ -1,4 +1,5 @@
 package Exercicios_Medium;
+
 //Faça um algoritmo para ler todos os meses do ano, armazene em um vetor.
 public class Exec7MedEx2 {
     public static void main(String[] args) {

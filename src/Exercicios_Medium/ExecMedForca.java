@@ -1,4 +1,5 @@
 package Exercicios_Medium;
+
 import java.util.Scanner;
 
 public class ExecMedForca {

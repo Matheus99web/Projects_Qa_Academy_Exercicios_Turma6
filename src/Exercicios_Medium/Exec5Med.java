@@ -1,5 +1,7 @@
 package Exercicios_Medium;
+
 import javax.swing.*;
+
 ////Faça um algoritmo para ler 5 números, verificar e exibir, quais dos 5 números digitados, é o menor.
 public class Exec5Med {
     public static void main(String[] args) {
